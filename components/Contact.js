@@ -48,7 +48,7 @@ ${formValues.email}`;
             Contact
           </h1>
         </div>
-        <div className="relative rounded-md shadow-md bg-blue-100 text-black dark:bg-slate-900 dark:text-white p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-2">
+        <div className="relative rounded-md shadow-md bg-blue-100 text-black dark:bg-slate-900 dark:text-white p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {isMessageSent ? (
               <div className="flex flex-col gap-2 rounded-lg bg-white dark:bg-blue-900 justify-center items-center">

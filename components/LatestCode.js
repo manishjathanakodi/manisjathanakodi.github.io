@@ -40,7 +40,7 @@ export default function LatestCode({ repositories }) {
           </a>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:mt-5 gap-y-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-4 gap-y-10">
         {/* Single github Repo */}
 
         {repos &&
