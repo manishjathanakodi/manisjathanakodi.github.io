@@ -56,7 +56,7 @@ export default function FavouriteProjects() {
                     {project.desc}
                   </h1>
                   <h1 className="absolute bottom-6 left-10 text-gray-50 font-bold text-xl">
-                    {index + 1}
+                    {/* {index + 1} */}
                   </h1>
                 </div>
               </a>

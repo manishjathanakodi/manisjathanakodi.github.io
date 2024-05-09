@@ -17,7 +17,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}.
+            {userData.about.title}
             <a
               className="bg-red-500 hidden rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -46,7 +46,7 @@ export default function AboutMe() {
                 and I&apos;ll get back. I swear.
               </p>
             </div>
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
@@ -58,7 +58,7 @@ export default function AboutMe() {
                 </Link>
                 and I&apos;d love to work for you.
               </p>
-            </div>
+            </div> */}
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links

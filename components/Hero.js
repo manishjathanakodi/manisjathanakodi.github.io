@@ -6,6 +6,15 @@ import HackedTextEffect from "./molecules/HackedTextEffect";
 
 export default function Hero() {
   return (
+    <div className="video-container">
+    <video autoPlay muted loop width="100%"  height="50vh">
+      <source src="/Manishhero.mp4" type="video/mp4" />
+      {/* Add additional source tags for different video formats if needed */}
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  )
+  return (
     <div className="flex flex-row justify-around overflow-hidden lg:p-20">
       {/* Text container */}
       <div className="grid grid-cols-2 gap-4">

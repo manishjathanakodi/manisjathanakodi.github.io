@@ -123,7 +123,7 @@ ${formValues.email}`;
                 </div>
               </div>
               <div className="bg-white social-icons flex flex-row justify-around dark:bg-slate-800 shadow-md rounded-full space-x-8">
-                <a
+                {/* <a
                   href={userData.socialLinks.facebook}
                   className="h-10 w-10 rounded-full hover:bg-blue-400  flex items-center justify-center cursor-pointer"
                 >
@@ -140,7 +140,7 @@ ${formValues.email}`;
                   className="h-10 w-10 hover:bg-blue-400 rounded-full  flex items-center justify-center cursor-pointer"
                 >
                   <FiInstagram />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
