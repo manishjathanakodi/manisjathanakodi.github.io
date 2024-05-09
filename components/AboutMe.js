@@ -11,7 +11,7 @@ export default function AboutMe() {
           About Me.
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+      {/* <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container  max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
@@ -26,8 +26,8 @@ export default function AboutMe() {
             </a>
           </p>
         </div>
-      </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+      </div> */}
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4 -mt-5">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
@@ -36,14 +36,14 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                Reach out to me on{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
                 </a>{" "}
-                and I&apos;ll get back. I swear.
+                and I&apos;ll get back to you
               </p>
             </div>
             {/* <div className="mt-8">

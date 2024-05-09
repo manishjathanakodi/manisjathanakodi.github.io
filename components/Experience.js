@@ -9,7 +9,7 @@ export default function Experience({ showEducation = true }) {
           Experience
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-1">
         <CreateCards data={userData.experience} pingColor="green" />
         {showEducation && (
           <>
