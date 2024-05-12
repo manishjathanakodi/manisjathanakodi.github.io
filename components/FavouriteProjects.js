@@ -6,12 +6,12 @@ export default function FavouriteProjects() {
   return (
     <div className="bg-[#E3E2DD] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
+        <header className="flex flex-col md:flex-row justify-between items-center pt-40 -mx-3 md:my-20 lg:my-0">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-black dark:text-white text-center">
             Projects
           </h1>
           <Link
-            href="/projects"ß
+            href="/projects"
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
@@ -32,9 +32,14 @@ export default function FavouriteProjects() {
             <p>View all</p>
           </Link>
         </header>
+        <div className="mt-5">
+          <p className="text-xl text-gray-700 mb-4 dark:text-gray-300">
+            Below are a few major projects I have contributed to:</p>
+          </div>
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:mt-3 pb-40">
+          
           {userData.projects.slice(0, 5).map((project, index) => {
             return (
               <a
