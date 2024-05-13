@@ -115,7 +115,7 @@ const userData = {
   ],
   resumeUrl: "/manishresume.pdf",
   resumeDownloadUrl:
-    "/ManishCV.pdf",
+    "/ManishCV_May_2024.pdf",
   socialLinks: {
     
     linkedin: "https://www.linkedin.com/in/manish-jathanakodi-5a0a131b2 ",
