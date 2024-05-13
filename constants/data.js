@@ -78,8 +78,7 @@ const userData = {
   about: {
     title: "",
     description: [
-      `Versatile front-end focused fullstack developer with 1.8 years of industry experience and 3+ years of
-      experience as a freelance developer. Contributed to 7 diverse projects spanning various technology
+      `Versatile front-end focused fullstack developer with 1.8 years of industry experience. Contributed to 7 diverse projects spanning various technology
       stacks in the last 1.8 years, showcasing adaptability and agility by simultaneously handling multiple
       projects of different tech stacks. I have collaboration skills and i am proficient in conducting detailed project requirement analysis and
       ability to rapidly upskill and seamlessly transition into new projects, ensuring swift integration and
