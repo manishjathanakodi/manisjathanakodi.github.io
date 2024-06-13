@@ -46,7 +46,7 @@ export default function Home({ repositories }) {
       <FavouriteProjects />
       <AboutMe />
       <Experience showEducation={false} />
-      <LatestCode repositories={repositories} />
+      {/* <LatestCode repositories={repositories} /> */}
       <Contact />
     </ContainerBlock>
   );

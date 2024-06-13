@@ -59,18 +59,13 @@ const userData = {
       imgUrl: "/afyass.png",
       desc: "Afya is a Virtual Care as a Service company that uses advanced AI technology to conveniently connect you to primary care and specialty physicians. ",
     },
-    {
-      title: "Federal Bank pulse",
-      link: "https://play.google.com/store/apps/details?id=com.federal.pulse",
-      imgUrl: "/pulsess.png",
-      desc: "This Application acts as an interface for the employees to access Fed-e-HRM in the user’s mobile device in an ease and portable mode.",
-    },
+   
  
     
   ],
   meta: {
     site_name: "Manish J",
-    title: "Manish J - Coder. Designer. Freelancer",
+    title: "Manish J - Coder. Designer. Teacher",
     description: `Building things gets me excited. Get in touch with me to know more.`,
     image: "",
     type: "website",
@@ -78,11 +73,8 @@ const userData = {
   about: {
     title: "",
     description: [
-      `Versatile front-end focused fullstack developer with 1.8 years of industry experience. Contributed to 7 diverse projects spanning various technology
-      stacks in the last 1.8 years, showcasing adaptability and agility by simultaneously handling multiple
-      projects of different tech stacks. I have collaboration skills and i am proficient in conducting detailed project requirement analysis and
-      ability to rapidly upskill and seamlessly transition into new projects, ensuring swift integration and
-      impactful contributions`,
+      `Versatile Front-end developer with 3+ years of experience in web development(MERN), mobile development(Kotlin), debugging and optimising legacy codebase. Adapts quickly to new technologies and collaborates effectively with technical teams and stakeholders throughout the entire software development lifecycle.
+      `,
     ],
     currentProject: "Nexus Market Cap",
     currentProjectUrl: "https://nexus-market-cap.vercel.app/",
@@ -93,14 +85,14 @@ const userData = {
       company: "Niveus Solutions",
       year: "2022-Present",
       companyLink: "https://niveussolutions.com",
-      desc: "Frontend Developer. Worked in multiple tech stacks while contributing to projects from various domain.",
+      desc: "Frontend Developer. Worked in multiple tech stacks while contributing to projects of various domain.",
     },
     {
-      title: "Soft skills trainer| Fullstack developer",
-      company: "Bacce Foundation",
-      year: "2021-2022",
-      companyLink: "https://infosys.com",
-      desc: "Provided value by planning and delivering content to over 2000+ students belonging to different demography. \nDeveloped LMS application using MERN stack.",
+      title: " Fullstack developer",
+      company: "HiveStrats",
+      year: "2020-2022",
+      companyLink: "https://www.hivestrats.com/",
+      desc: "Developed web applications using MERN stack.",
     },
   ],
   education: [
