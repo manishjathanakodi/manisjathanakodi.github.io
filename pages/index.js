@@ -43,7 +43,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock title={userData.name} description={userData.description}>
       <Hero />
-      <FavouriteProjects />
+      {/* <FavouriteProjects /> */}
       <AboutMe />
       <Experience showEducation={false} />
       {/* <LatestCode repositories={repositories} /> */}
