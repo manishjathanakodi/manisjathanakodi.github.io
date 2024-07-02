@@ -110,7 +110,7 @@ const userData = {
     "/manishresume.pdf",
   socialLinks: {
     
-    linkedin: "https://www.linkedin.com/in/manish-jathanakodi-5a0a131b2 ",
+    linkedin: "https://www.linkedin.com/in/manishjathanakodi",
     github: "https://github.com/manishjathanakodi",
 
   },
