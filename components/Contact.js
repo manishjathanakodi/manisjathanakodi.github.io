@@ -12,32 +12,16 @@ export default function Contact() {
 
     const formValues = {};
     const form = e.target;
-    for (var i = 0; i < form.elements.length; i++) {
-      const e = form.elements[i];
-      formValues[e.name] = e.value;
+    for (let i = 0; i < form.elements.length; i++) {
+      const el = form.elements[i];
+      if (el.name) {
+        formValues[el.name] = el.value;
+      }
     }
-    let message = `
-${formValues.name} wants to contact you, 
 
-Message:
-${formValues.message}
+    let mailtoLink = `mailto:someone@example.com?subject=Contact from ${formValues.name}&body=${formValues.message}%0D%0A%0D%0AReply to this email: ${formValues.email}`;
 
-Reply to this email:
-${formValues.email}`;
-
-    fetch("/api/contact", {
-      method: "POST",
-      body: message,
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data.reply);
-        setIsMessageSent(true);
-        // alert(data.message);
-      })
-      .catch((err) => {
-        alert("Oops your message was not sent. Please Retry again.");
-      });
+    window.location.href = mailtoLink;
   }
 
   return (
@@ -63,7 +47,7 @@ ${formValues.email}`;
               </div>
             ) : (
               <form
-                className={`form rounded-lg bg-white text-gray-600 dark:bg-slate-800/75 dark:text-white  p-4 flex flex-col`}
+                className="form rounded-lg bg-white text-gray-600 dark:bg-slate-800/75 dark:text-white p-4 flex flex-col"
                 onSubmit={handleOnSubmit}
               >
                 <label htmlFor="name" className="text-sm mx-4">
@@ -87,7 +71,6 @@ ${formValues.email}`;
                 </label>
                 <textarea
                   rows="4"
-                  type="text"
                   className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
                   name="message"
                 ></textarea>
