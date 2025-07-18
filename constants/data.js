@@ -81,7 +81,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Cloud Associate",
+      title: "SDE 2",
       company: "Niveus Solutions",
       year: "2022-Present",
       companyLink: "https://niveussolutions.com",
