@@ -59,9 +59,6 @@ const userData = {
       imgUrl: "/afyass.png",
       desc: "Afya is a Virtual Care as a Service company that uses advanced AI technology to conveniently connect you to primary care and specialty physicians. ",
     },
-   
- 
-    
   ],
   meta: {
     site_name: "Manish J",
